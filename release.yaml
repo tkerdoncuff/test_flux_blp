@@ -15,4 +15,4 @@ spec:
         namespace: flux
       interval: 10m
   values:
-    replicaCount: ${replicaCount:=3}
+    replicaCount: "${replicaCount:=3}"
